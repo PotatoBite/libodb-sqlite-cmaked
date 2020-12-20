@@ -74,7 +74,7 @@ jobs:
     
     - uses: djnicholson/release-action@v2.11
       with:
-        token: ${{ secrets.SECRET_4_PUBLISH }}
+        token: ${{ secrets.SECRET_4_ORGANIZATION }}
         asset-name: 'libodb-sqlite.lib'
         release-name: 'Static release'
         tag-name: 'v2.4.0-static'
